@@ -1,7 +1,7 @@
 {
   "name": "affinity-engine-visual-novel-bundle",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Everything you need to make a basic visual novel",
   "keywords": [
     "ember-addon"
   ],
@@ -11,13 +11,31 @@
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": "https://github.com/affinity-engine/affinity-engine-vn-bundle",
   "scripts": {
     "build": "ember build",
     "start": "ember server",
     "test": "ember try:each"
   },
   "dependencies": {
+    "affinity-engine": "git+https://github.com/affinity-engine/affinity-engine.git",
+    "affinity-engine-animator-velocity": "git+https://github.com/affinity-engine/affinity-engine-animator-velocity.git",
+    "affinity-engine-curtain": "git+https://github.com/affinity-engine/affinity-engine-curtain.git",
+    "affinity-engine-data-manager-rewindable-lokijs": "git+https://github.com/affinity-engine/affinity-engine-data-manager-rewindable-lokijs.git",
+    "affinity-engine-preloader-createjs": "git+https://github.com/affinity-engine/affinity-engine-preloader-createjs.git",
+    "affinity-engine-sound-manager-createjs": "git+https://github.com/affinity-engine/affinity-engine-sound-manager-createjs.git",
+    "affinity-engine-stage": "git+https://github.com/affinity-engine/affinity-engine-stage.git",
+    "affinity-engine-stage-direction-backdrop": "git+https://github.com/affinity-engine/affinity-engine-stage-direction-backdrop.git",
+    "affinity-engine-stage-direction-character": "git+https://github.com/affinity-engine/affinity-engine-stage-direction-character.git",
+    "affinity-engine-stage-direction-data": "git+https://github.com/affinity-engine/affinity-engine-stage-direction-data.git",
+    "affinity-engine-stage-direction-image": "git+https://github.com/affinity-engine/affinity-engine-stage-direction-image.git",
+    "affinity-engine-stage-direction-menu": "git+https://github.com/affinity-engine/affinity-engine-stage-direction-menu.git",
+    "affinity-engine-stage-direction-pause": "git+https://github.com/affinity-engine/affinity-engine-stage-direction-pause.git",
+    "affinity-engine-stage-direction-random": "git+https://github.com/affinity-engine/affinity-engine-stage-direction-random.git",
+    "affinity-engine-stage-direction-sound": "git+https://github.com/affinity-engine/affinity-engine-stage-direction-sound.git",
+    "affinity-engine-stage-direction-text": "git+https://github.com/affinity-engine/affinity-engine-stage-direction-text.git",
+    "affinity-engine-styles-bundle": "git+https://github.com/affinity-engine/affinity-engine-styles-bundle.git",
+    "affinity-engine-translator-ember-intl": "git+https://github.com/affinity-engine/affinity-engine-translator-ember-intl.git",
     "ember-cli-babel": "^5.1.7"
   },
   "devDependencies": {
@@ -47,6 +65,7 @@
     "node": ">= 0.12.0"
   },
   "ember-addon": {
-    "configPath": "tests/dummy/config"
+    "configPath": "tests/dummy/config",
+    "demoURL":"http://www.affinityengine.org/overview/installation/quickstarts"
   }
 }
