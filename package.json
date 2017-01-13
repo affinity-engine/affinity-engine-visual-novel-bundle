@@ -33,7 +33,6 @@
     "affinity-engine-stage": "git+https://github.com/affinity-engine/affinity-engine-stage.git",
     "affinity-engine-stage-direction-backdrop": "git+https://github.com/affinity-engine/affinity-engine-stage-direction-backdrop.git",
     "affinity-engine-stage-direction-character": "git+https://github.com/affinity-engine/affinity-engine-stage-direction-character.git",
-    "affinity-engine-stage-direction-data": "git+https://github.com/affinity-engine/affinity-engine-stage-direction-data.git",
     "affinity-engine-stage-direction-image": "git+https://github.com/affinity-engine/affinity-engine-stage-direction-image.git",
     "affinity-engine-stage-direction-menu": "git+https://github.com/affinity-engine/affinity-engine-stage-direction-menu.git",
     "affinity-engine-stage-direction-pause": "git+https://github.com/affinity-engine/affinity-engine-stage-direction-pause.git",
@@ -72,6 +71,6 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config",
-    "demoURL":"http://www.affinityengine.org/overview/installation/quickstarts"
+    "demoURL":"http://www.affinityengine.org/#/overview/installation/quickstarts"
   }
 }
