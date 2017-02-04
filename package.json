@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "affinity-engine": "git+https://github.com/affinity-engine/affinity-engine.git",
-    "affinity-engine-animator-velocity": "git+https://github.com/affinity-engine/affinity-engine-animator-velocity.git",
+    "affinity-engine-animator-animejs": "git+https://github.com/affinity-engine/affinity-engine-animator-animejs.git",
     "affinity-engine-curtain": "git+https://github.com/affinity-engine/affinity-engine-curtain.git",
     "affinity-engine-menu-bar": "git+https://github.com/affinity-engine/affinity-engine-menu-bar.git",
     "affinity-engine-menu-bar-button-load": "git+https://github.com/affinity-engine/affinity-engine-menu-bar-button-load.git",
