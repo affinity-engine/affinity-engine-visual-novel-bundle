@@ -1,6 +1,6 @@
 {
   "name": "affinity-engine-visual-novel-bundle",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Everything you need to make a basic visual novel",
   "keywords": [
     "ember-addon"
