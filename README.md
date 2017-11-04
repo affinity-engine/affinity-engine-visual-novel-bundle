@@ -3,4 +3,4 @@
 
 # affinity-engine-visual-novel-bundle
 
-You'll find the interactive guides  [here](http://www.affinityengine.org/#/overview/installation/quickstarts).
+You'll find the interactive guides [here](http://www.affinityengine.org/#/overview/installation/quickstarts).
