@@ -1,6 +1,6 @@
 {
   "name": "affinity-engine-visual-novel-bundle",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Everything you need to make a basic visual novel",
   "keywords": [
     "ember-addon"
@@ -32,7 +32,7 @@
     "affinity-engine-plugin-preloader-createjs": "^0.2.4",
     "affinity-engine-plugin-sound-manager-createjs": "^0.2.5",
     "affinity-engine-plugin-translator-ember-intl": "^0.2.4",
-    "affinity-engine-stage": "^0.2.5",
+    "affinity-engine-stage": "^0.2.9",
     "affinity-engine-stage-direction-backdrop": "^0.2.4",
     "affinity-engine-stage-direction-character": "^0.2.4",
     "affinity-engine-stage-direction-image": "^0.2.7",
@@ -41,7 +41,7 @@
     "affinity-engine-stage-direction-random": "^0.2.4",
     "affinity-engine-stage-direction-sound": "^0.2.5",
     "affinity-engine-stage-direction-text": "^0.2.5",
-    "affinity-engine-style-bundle": "^0.2.6",
+    "affinity-engine-style-bundle": "^0.2.7",
     "ember-cli-babel": "^6.3.0"
   },
   "devDependencies": {
@@ -69,6 +69,6 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config",
-    "demoURL": "http://www.affinityengine.org/#/overview/installation/quickstarts"
+    "demoURL": "http://www.affinityengine.org/#/tutorial/installation/quickstarts"
   }
 }
